@@ -85,6 +85,7 @@ var LeadSourceCookieModule = function(){
 		formCheckCount++;
 		if ($('form.ao-form input[name="Lead Source"]').length) {
 			$('form.ao-form input[name="Lead Source"]').val(readCookie(cookieName));
+			$('form.ao-form input[name="Latest Lead Source"]').val(readCookie(latestCookieName));
 			// console.log('form value set');
 			formCheckStop();
 		} else if (formCheckCount > 10){

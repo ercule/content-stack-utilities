@@ -2,11 +2,11 @@
 <script>
 var LeadSourceModule = function(){
 
-  var lsCookieName = 'xyz_lead_source',
-      referrerCookieName = 'xyz_initial_referrer',
-      lpCookieName = 'xyz_initial_landing_page',
-      domainName = 'xyz.com',
-      cookieDuration = 2000;
+  var lsCookieName = 'xyz_lead_source', //Replace this with a name for your lead source cookie
+      referrerCookieName = 'xyz_initial_referrer', //Replace this with a name for your referrer cookie
+      lpCookieName = 'xyz_initial_landing_page', //Replace this what a name for your landing page cookie
+      domainName = 'xyz.com', //Replace this with your domain name, omitting https:// and any subdomains
+      cookieDuration = 2000; //Number of days to store the cookies
 
   function readCookie(name) {
       var nameEQ = name + "=";

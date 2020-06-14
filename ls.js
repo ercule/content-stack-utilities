@@ -1,8 +1,6 @@
-<!-- Start of Lead Source Tracking Code -->
-<script>
 var LeadSourceModule = function(){
 
-  var lsCookieName = '_lead_source',
+  var lsCookieName = '_lead_source', 
       mrCookieName = '_recent_lead_source',
       referrerCookieName = '_initial_referrer',
       lpCookieName = '_initial_landing_page',
@@ -93,6 +91,3 @@ var LeadSourceModule = function(){
 }();
 
 LeadSourceModule.init();
-
-</script>
-<!-- End of Lead Source Tracking Code -->

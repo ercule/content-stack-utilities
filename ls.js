@@ -91,3 +91,28 @@ var LeadSourceModule = function(){
 }();
 
 LeadSourceModule.init();
+
+//example tracking code follows for form population. this assumes you have a field 
+
+// var cookiedLS = LeadSourceModule.readCookie('_lead_source');
+// var ls_fieldname = "input[name='leadsource']"
+
+// function formPopulate(cookiedLS) {
+//   if (document.querySelector(ls_fieldname)) {
+//     document.querySelector(ls_fieldname).value = cookiedLS;
+//   }
+// }
+   
+// formPopulate(cookiedLS);
+
+// window.addEventListener('DOMContentLoaded', function(){
+//   formPopulate(cookiedLS);
+// });
+
+// Hubspot
+
+// window.addEventListener("message", function(event) {
+// if(event.data.type === 'hsFormCallback' && event.data.eventName === 'onFormReady') {
+//   formPopulate(cookiedLS);
+// }
+// });

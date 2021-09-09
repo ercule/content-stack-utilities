@@ -7,7 +7,7 @@ var LeadSourceModule = function(){
       domainName = 'domain.com',
       cookieDuration = 2000;
   
-  //⭐️: In domainName above, be sure to set this to your actual domain name.
+  //⭐️ In domainName above, be sure to set this to your actual domain name.
 
   function readCookie(name) {
       var nameEQ = name + "=";

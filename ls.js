@@ -6,6 +6,8 @@ var LeadSourceModule = function(){
       lpCookieName = '_initial_landing_page',
       domainName = 'domain.com',
       cookieDuration = 2000;
+  
+  //⭐️: In domainName above, be sure to set this to your actual domain name.
 
   function readCookie(name) {
       var nameEQ = name + "=";
@@ -92,7 +94,7 @@ var LeadSourceModule = function(){
 
 LeadSourceModule.init();
 
-//example tracking code follows for form population. this assumes you have a field 
+// ⭐️ Example tracking code follows for form population. This assumes you have a field in your forms that will accept the data copied from the cookie.
 
 // var cookiedLS = LeadSourceModule.readCookie('_lead_source');
 // var ls_fieldname = "input[name='leadsource']"

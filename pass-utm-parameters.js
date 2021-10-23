@@ -2,7 +2,7 @@
 
 (function() {
   var domainsToDecorate = [
-          'typeform.com'
+          'yoursite.com'
       ],
       queryParams = [
           'utm_medium', //add or remove query parameters you want to transfer

@@ -71,10 +71,10 @@
     if (event.data.type === 'hsFormCallback' && event.data.eventName === 'onFormSubmitted') {
       debugLog("Received onFormSubmitted message for form ID: " + event.data.id);
       window.dataLayer.push({
-        'event': 'hubspot-form-success',
+        'event': 'hubspot-form-submit',
         'hs-form-guid': event.data.id
       });
-      debugLog("Hubspot form success event pushed to dataLayer for form ID: " + event.data.id);
+      debugLog("Hubspot form submit event pushed to dataLayer for form ID: " + event.data.id);
     }
   });
 
